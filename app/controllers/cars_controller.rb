@@ -1,8 +1,8 @@
 class CarsController < ApplicationController
   before_action :set_car, only: [:show, :edit, :update, :destroy]
 
-  #GET /cars/test
-  def test
+  #GET /cars/sample
+  def sample
     
   end
   # GET /cars
