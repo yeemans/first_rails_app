@@ -1,10 +1,14 @@
 class CarsController < ApplicationController
   before_action :set_car, only: [:show, :edit, :update, :destroy]
 
+  def test_render 
+    
+  end
   # GET /cars
   # GET /cars.json
   def index
     @cars = Car.all
+    test_render
   end
 
   # GET /cars/1
