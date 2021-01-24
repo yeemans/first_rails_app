@@ -8,7 +8,7 @@ class CarsController < ApplicationController
   # GET /cars.json
   def index
     @cars = Car.all
-    test_render
+    test_render()
   end
 
   # GET /cars/1
